@@ -768,6 +768,8 @@ SELECT_TYPES = [
             3: "Passive Mode",
             4: "Peak Cut Mode",
             5: "Off-grid Mode",
+            6: "Generator Mode",
+            7: "Feed-In Piority Mode",
         },
         allowedtypes=HYBRID,
         write_method=WRITE_MULTISINGLE_MODBUS,
