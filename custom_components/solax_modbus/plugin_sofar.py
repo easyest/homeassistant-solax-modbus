@@ -3589,6 +3589,8 @@ SENSOR_TYPES: list[SofarModbusSensorEntityDescription] = [
             3: "Passive Mode",
             4: "Peak Cut Mode",
             5: "Off-grid Mode",
+            6: "Generator Mode",
+            7: "Feed-In Piority Mode",
         },
         internal=True,
         allowedtypes=HYBRID,
